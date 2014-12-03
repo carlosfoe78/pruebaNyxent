@@ -1,0 +1,12 @@
+﻿Funcionamiento del programa
+Los parámetros para la conexión de la base de datos se modifican en el archivo  lib/connection.php.
+Las consultas y la lógica de la aplicación se en encuentran en el archivo  lib/pager.php
+La clase “Pager” al momento de instanciarla recibe 2 parámetros, el id del documento y la pagina a generar.
+getContentPages() :  esta función generara una página con el contenido solicitado.
+doPage(param1, param2): genera el código html para la página.
+getImagePage(param1):  consultara la base de datos para obtener el json de la imagen de la página.
+renderImg(param1): con los datos obtenidos por getImagePage() generara una cadena html para la imagen de la página
+renderElement (param1,param2): esta clase recibe los datos de los elementos de la página generara un html para cada etiqueta del form y cada testo de la página.
+
+Index.php: en este archivo se usa una instancia de la clase Pager y usa la función getContentPages() para mostrar el contenido de la página.
+El cambio de páginas lo realiza el evento clic del botón que está en el archivo js/main.js

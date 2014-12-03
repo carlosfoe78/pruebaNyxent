@@ -1,0 +1,2 @@
+﻿Pregunta de tipo  drag-drop
+Dependiendo del propósito de la pregunta, si es ingresar selecciones en un orden correcto o una serie de elementos válidos, usaría jQuery y el evento drop acumularía los id de cada elemento en un arreglo al final evalúo según el requerimiento si los elementos fueron agregados en el orden correcto, o solo están presentes elementos válidos, guardo el resultado de la evolución de esa pregunta en una variable para incluirla al momento de enviar los datos para su proceso.

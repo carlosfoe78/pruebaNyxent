@@ -1,0 +1,2 @@
+﻿Evaluación de las repuestas
+Para mantener de forma persistente las repuestas de los usuarios, usaría un form con un método post a una clase que se encargue de almacenar las respuestas y id del usuario en la bd; después de confirmar que todos los datos están en la bd, haría un recorrido por todas las respuestas comparándolas con las respuestas correctas y actualizando un campo bolean con el resultado de la comparación,  terminado el proceso genero el resultado de las respuestas según el requerimiento
